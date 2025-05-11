@@ -61,11 +61,5 @@ This project is licensed under the MIT License.
 
 "Capturing Moments, Creating Stories."
 
-yaml
-Copy
-Edit
 
----
-
-Let me know if you want this prefilled in a GitHub repo template or zipped up for upload.
 
