@@ -1,0 +1,29 @@
+.cursor {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.cursor-outer {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+}
+
+@media (max-width: 768px) {
+  .cursor, .cursor-outer {
+    display: none;
+  }
+  
+  * {
+    cursor: auto !important;
+  }
+}
