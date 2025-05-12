@@ -139,7 +139,7 @@ const Team = () => {
     {
       name: "Maidah Nasir",
       role: "Social Media Co-Head",
-      image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+      image: "/assets/maidah.png",
       bio: "Supports and collaborates on managing social media strategies and campaigns.",
       social: [{ icon: <Instagram size={18} />, url: "https://www.instagram.com/maidahhh_906" }]
     },
