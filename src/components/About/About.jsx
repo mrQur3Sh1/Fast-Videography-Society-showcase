@@ -83,11 +83,10 @@ const About = () => {
             About Us
           </motion.h2>
           
-           <motion.p className="about-description" variants={itemVariants}>
-           <strong>FAST Videography Society</strong> is a leading student organization at FAST CFD campus, established in 2023. We provide a creative platform for students passionate about visual storytelling, offering hands-on experience in videography, photography, and filmmaking.
-           
-           Our society fosters technical skills and artistic vision, empowering members to collaborate on projects that capture the essence of university life. FVS is committed to equipping students with the tools and mentorship needed to excel in the ever-evolving media landscape.
-          </motion.p>
+          <motion.p className="about-description" variants={itemVariants}>
+  <strong>FAST Videography Society</strong>, founded in 2023 at FAST CFD campus, is a hub for students passionate about visual storytelling. We offer hands-on experience in videography, photography, and filmmaking, helping members build both creative and technical skills.
+</motion.p>
+
 
           <motion.div className="image-grid" variants={itemVariants}>
             {imageGrid.map((image, index) => (

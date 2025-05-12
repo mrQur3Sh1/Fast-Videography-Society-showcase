@@ -53,6 +53,9 @@
   font-size: 1.1rem;
   color: var(--gray-300);
   padding: 0 15px;
+  hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .image-grid {
@@ -201,8 +204,10 @@
   }
   
   .about-description {
-    text-align: left;
+    text-align: left; /* Better for narrow widths */
+    font-size: 1rem;
     padding: 0 10px;
+    line-height: 1.7;
   }
   
   .image-item {
@@ -222,10 +227,16 @@
   }
   
   .about-description {
-    margin-bottom: 30px;
-    line-height: 1.6;
+     .about-description {
+    text-align: left;            /* Avoid awkward word spacing */
+    font-size: 0.95rem;          /* Slightly smaller text */
+    line-height: 1.6;            /* Tighter line height */
+    padding: 0 12px;             /* Reduce side padding */
+    margin-bottom: 30px;         /* Better spacing below */
+    hyphens: auto;
+    word-break: break-word;
   }
-  
+}
   .services-grid {
     grid-template-columns: 1fr;
   }
