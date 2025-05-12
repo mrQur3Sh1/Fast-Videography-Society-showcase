@@ -6,7 +6,7 @@ Welcome to the official website of the **FAST Videography Society** — a cinema
 
 ## 🌟 Live Demo
 
-🚀 [View Website on Netlify](https://meek-croquembouche-1bd1fc.netlify.app/)
+🚀 [View Website on Netlify](https://fastvideographysociety.netlify.app)
 
 ---
 
